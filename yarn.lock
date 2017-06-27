@@ -1607,11 +1607,12 @@ eslint-config-airbnb@15.0.1:
   dependencies:
     eslint-config-airbnb-base "^11.2.0"
 
-eslint-config-mkitt@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-mkitt/-/eslint-config-mkitt-1.0.0.tgz#95296be1e9acee61c7a486b233b34238ace599f7"
+eslint-config-mkitt@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-mkitt/-/eslint-config-mkitt-2.0.0.tgz#457153dd0729a630545aaad8af32da5ba8bbd0f2"
   dependencies:
     eslint-config-airbnb "15.0.1"
+    eslint-plugin-flowtype "2.34.0"
     eslint-plugin-import "2.6.0"
     eslint-plugin-jsx-a11y "5.0.3"
     eslint-plugin-react "7.1.0"
@@ -1630,6 +1631,12 @@ eslint-module-utils@^2.0.0:
   dependencies:
     debug "^2.6.8"
     pkg-dir "^1.0.0"
+
+eslint-plugin-flowtype@2.34.0:
+  version "2.34.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-flowtype/-/eslint-plugin-flowtype-2.34.0.tgz#b9875f314652e5081623c9d2b18a346bbb759c09"
+  dependencies:
+    lodash "^4.15.0"
 
 eslint-plugin-import@2.6.0:
   version "2.6.0"
@@ -2598,7 +2605,7 @@ lodash.cond@^4.3.0:
   version "4.5.2"
   resolved "https://registry.yarnpkg.com/lodash.cond/-/lodash.cond-4.5.2.tgz#f471a1da486be60f6ab955d17115523dd1d255d5"
 
-lodash@^4.0.0, lodash@^4.14.0, lodash@^4.2.0, lodash@^4.3.0, lodash@^4.5.1, lodash@^4.6.1:
+lodash@^4.0.0, lodash@^4.14.0, lodash@^4.15.0, lodash@^4.2.0, lodash@^4.3.0, lodash@^4.5.1, lodash@^4.6.1:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
