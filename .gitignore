@@ -3,5 +3,5 @@
 .next
 *.log
 *.map
+coverage
 node_modules
-
