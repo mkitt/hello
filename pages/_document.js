@@ -19,7 +19,8 @@ export default class extends Document {
             body { position: relative; margin: 0; background-color: #fff; }
             ::selection { color: #fff; text-shadow: none; background: #000; }
             h1, h2, h3, h4, h5, h6 { margin: 0; line-height: 1.25; }
-          `}</style>
+          `}
+          </style>
           <Main />
           <NextScript />
         </body>
