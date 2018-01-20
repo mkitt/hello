@@ -20,7 +20,7 @@
     "babel-eslint": "8.2.1",
     "babel-preset-env": "1.6.1",
     "babel-preset-flow": "6.23.0",
-    "eslint": "4.15.0",
+    "eslint": "4.16.0",
     "eslint-config-mkitt": "4.0.0",
     "flow-bin": "0.63.1"
   },
