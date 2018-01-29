@@ -1,7 +1,7 @@
 {
   "name": "hello",
-  "description": "Project template for spiking out ideas",
-  "homepage": "https://mkitt.net/",
+  "description": "Project template for spiking out ideas.",
+  "homepage": "https://mkitt.net/hello",
   "version": "6.6.6",
   "license": "MIT",
   "scripts": {
