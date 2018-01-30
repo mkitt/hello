@@ -2,35 +2,37 @@
   "name": "hello",
   "description": "Project template for spiking out ideas.",
   "homepage": "https://mkitt.net/hello",
-  "private": true,
   "version": "6.6.6",
   "license": "MIT",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "postbuild": "react-snap",
-    "flow": "flow ./src",
-    "lint": "eslint ./src",
-    "test": "react-scripts test --env=jsdom"
+    "build": "next build && next export -o build && echo > ./build/.nojekyll",
+    "dev": "next",
+    "flow": "flow",
+    "lint": "eslint ./",
+    "start": "next start",
+    "test": "jest"
   },
   "dependencies": {
+    "next": "4.2.3",
     "react": "16.2.0",
-    "react-dom": "16.2.0",
-    "react-router-dom": "4.2.2"
+    "react-dom": "16.2.0"
   },
   "devDependencies": {
     "babel-eslint": "8.2.1",
+    "babel-jest": "22.1.0",
+    "babel-preset-env": "1.6.1",
     "babel-preset-flow": "6.23.0",
     "eslint": "4.16.0",
     "eslint-config-mkitt": "4.0.0",
     "flow-bin": "0.64.0",
-    "react-scripts": "1.1.0",
-    "react-snap": "1.11.1",
+    "jest": "22.1.4",
     "react-test-renderer": "16.2.0"
   },
   "babel": {
     "presets": [
-      "flow"
+      "env",
+      "flow",
+      "next/babel"
     ]
   },
   "browserslist": [

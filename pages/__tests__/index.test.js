@@ -1,11 +1,11 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
-import App from '../App'
+import Index from '../index'
 
 describe('/', () => {
   it('shows the correct snapshot tree for the / page', () => {
     const component = (
-      <App />
+      <Index />
     )
     const tree = renderer.create(component).toJSON()
     expect(tree).toMatchSnapshot()
