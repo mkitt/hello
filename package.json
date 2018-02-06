@@ -22,8 +22,8 @@
     "babel-jest": "22.1.0",
     "babel-preset-env": "1.6.1",
     "babel-preset-flow": "6.23.0",
-    "eslint": "4.16.0",
-    "eslint-config-mkitt": "4.0.0",
+    "eslint": "4.17.0",
+    "eslint-config-mkitt": "4.1.0",
     "flow-bin": "0.64.0",
     "jest": "22.1.4",
     "react-test-renderer": "16.2.0"
