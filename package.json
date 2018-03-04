@@ -8,7 +8,7 @@
     "build": "next build && next export -o build && echo > ./build/.nojekyll",
     "dev": "next",
     "flow": "flow",
-    "lint": "eslint ./",
+    "lint": "eslint ./ ",
     "start": "next start",
     "test": "jest"
   },

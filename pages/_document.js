@@ -20,6 +20,7 @@ export default class extends Document {
   render() {
     return (
       <html lang="en">
+        <title>mkitt | hello</title>
         <Head>
           <style>{globalStyles}</style>
         </Head>
