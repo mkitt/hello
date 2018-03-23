@@ -2,8 +2,8 @@
 .env
 .next
 *.log
-*.map
 build
+dist
 coverage
 dist
 node_modules

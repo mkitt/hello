@@ -5,7 +5,8 @@
   "version": "6.6.6",
   "license": "MIT",
   "scripts": {
-    "build": "next build && next export -o build && echo > ./build/.nojekyll",
+    "build": "next build && next export -o build",
+    "postbuild": "echo > ./build/.nojekyll",
     "dev": "next",
     "flow": "flow",
     "lint": "eslint ./ ",
@@ -18,19 +19,16 @@
     "react-dom": "16.2.0"
   },
   "devDependencies": {
-    "babel-jest": "23.0.0-alpha.0",
-    "babel-preset-env": "1.6.1",
-    "babel-preset-flow": "6.23.0",
-    "eslint": "4.19.0",
+    "babel-preset-mkitt": "3.0.0",
+    "eslint": "4.19.1",
     "eslint-config-mkitt": "4.3.0",
     "flow-bin": "0.68.0",
-    "jest": "22.4.2",
+    "jest": "22.4.3",
     "react-test-renderer": "16.2.0"
   },
   "babel": {
     "presets": [
-      "env",
-      "flow",
+      "mkitt",
       "next/babel"
     ]
   },
